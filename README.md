@@ -1,1 +1,1 @@
-# js_expert
+# Repositório para Exercicios do curso "Javascript Expert"
