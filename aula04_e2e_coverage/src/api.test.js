@@ -36,4 +36,10 @@ describe('API suite test', () => {
             assert.strictEqual(response.text, 'Log in Failed')
         })
     })
+    describe('/hi:get - 404', () => {
+        it('should request and existing route and return HTTP Status 404', async () => {
+            const response = await supertest(app).get('/hi').expect(404)
+            assert.strictEqual(response.text, 'NOT FOUND')
+        })
+    })
 })
