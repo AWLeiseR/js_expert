@@ -9,7 +9,7 @@ const ITEMS_AMOUNT = 2
 const carCategory = new CarCategory({
     id: faker.string.uuid(),
     name: faker.vehicle.type(),
-    carId: [],
+    carIds: [],
     price: faker.finance.amount(20, 100),
 })
 
