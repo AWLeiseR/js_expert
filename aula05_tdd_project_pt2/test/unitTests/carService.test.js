@@ -4,7 +4,6 @@ const CarService = require('./../../src/service/carService')
 const { join } = require('path')
 const { expect } = require('chai')
 const sinon = require('sinon')
-const { sandbox, h } = require('sinon')
 const carsDataBase = join(__dirname, './../../database', 'cars.json')
 
 const mocks = {
